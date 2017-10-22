@@ -8,6 +8,10 @@ class StaticPagesController < ApplicationController
   def csr
   end
   
-  def contact
+  def career
   end
+  
+  def investor
+  end
+  
 end

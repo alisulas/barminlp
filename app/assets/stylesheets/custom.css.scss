@@ -14,12 +14,20 @@ body {
 }
 
 
+/* color */
+.judul {
+	font-family: 'FestivoBasic','Arial','Helvetica','sans-serif';
+  color: #8bc832;
+  line-height: 60px;
+  text-align: -webkit-center;
+}
+
 
 /* Header */
-.navbar-inverse { background: #cc3333; 
+.navbar-inverse { background: #b71515; 
   .navbar-nav {
     li { padding: 18px 0;
-      a { color: #f0f381;
+      a { color: #000000;
 					font-family: "Open sans", Helvetica, Arial;
 					font-weight: 700;
 					font-size: 16px;

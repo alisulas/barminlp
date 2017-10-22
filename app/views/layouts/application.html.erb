@@ -21,7 +21,7 @@
 
   <body>
     <%= render 'layouts/header' %>
-    <%= render 'layouts/huh' %>
+    <%= render partial: "layouts/huh" if current_page?('/')  %>
     <div class="container">
       <%= yield %>
     </div>
