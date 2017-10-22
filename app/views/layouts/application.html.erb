@@ -18,9 +18,14 @@
     </div>
   </body>
 <% end %>
+
   <body>
+    <%= render 'layouts/header' %>
+    <%= render 'layouts/huh' %>
+    <div class="container">
       <%= yield %>
     </div>
+    <%= render 'layouts/footer' %>
   </body>
 
 

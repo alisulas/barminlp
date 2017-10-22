@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def help
+  def csr
   end
   
   def contact

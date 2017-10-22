@@ -7,6 +7,14 @@
 $white: #fff;
 $font_family_1: 'Roboto', sans-serif;
 
+/* universal */
+
+body {
+  padding-top: 60px;
+}
+
+
+
 /* Header */
 .navbar-inverse { background: #cc3333; 
   .navbar-nav {
