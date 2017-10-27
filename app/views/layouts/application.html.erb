@@ -12,10 +12,26 @@
 
 
   <body>
-    <%= render 'layouts/nav' %>
-    <%= render partial: "layouts/header" if current_page?('/')  %>
-      <%= yield %>
-    <%= render 'layouts/footer' %>
+    
+    
+    <header id="header">
+    
+        <%= render 'layouts/nav' %>
+        <%= render partial: "layouts/header" if current_page?('/')  %>
+    </header>
+    
+    
+    <section id="content">
+      <div class="container">
+        <%= yield %>
+      </div>
+    </section>
+    
+    <footer id="footer">
+      <div class="container-fluid">
+        <%= render 'layouts/footer' %>
+      </div>
+    </footer>
   </body>
 
 
